@@ -4,26 +4,31 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  <!--Bootstrap css-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!--Css próprio-->
   <link href="style.css" rel="stylesheet">
 
+  <!--Importação Fontawesome-->
   <script defer src="./fontawesome/js/brands.js"></script>
   <script defer src="./fontawesome/js/fontawesome.js"></script>
+  <!--Importação funções javascript-->
   <script type="text/javascript" src="index.js"></script>
-
 
   <title>Black Friday | Landing Page</title>
 </head>
 
 <body>
   <div class="container-fluid">
+    <!--Primeira seção: capa-->
     <div class="cover">
+      <!--Barra de navegação-->
       <nav class="navbar navbar-expand-lg navbar-dark">
         <a class="navbar-brand" href="#">
           <img src="./img/logo.png" width="200" class="d-inline-block align-text-top">
         </a>
+        <!--Ícone para versão tablet/smartphone-->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
           aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -38,8 +43,7 @@
           </div>
         </div>
       </nav>
-
-
+      <!--conteúdo-->
       <section class="row">
         <div id="new-flex" class="d-flex flex-row align-items-center my-5 py-5">
           <div class="col">
@@ -58,19 +62,19 @@
                 Fique ligado nas promoções incríveis e economize até <strong class="h5">70%</strong> com a promoção
                 insana da Black Friday.
               </p>
-
+              <!--Formulário-->
               <div class="input-group ps-5 ms-5" style="width: 90%;">
                 <button class="btn btn-outline-light fw-bold" type="button" id="button-addon2"
                   onclick="addItem()">Cadastrar</button>
                 <input type="email" class="form-control fw-light text-end" placeholder="Digite seu melhor e-mail"
                   id="email">
-
               </div>
             </div>
           </div>
         </div>
       </section>
     </div>
+    <!--Segunda seção: info dos produtos-->
     <section class="bg-black">
       <div class="bg-black-d">
         <div class="container px-4 py-4" id="featured-3">
@@ -99,8 +103,8 @@
             </div>
           </div>
         </div>
+        <!--Botão ativador do modal-->
         <div class="d-flex justify-content-center pb-5">
-          <!--Botão ativador do modal-->
           <button type="button" class="btn btn-outline-light" data-toggle="modal" data-target="#myModal">
             Saiba mais
           </button>
@@ -145,10 +149,9 @@
               </div>
             </div>
           </div>
-
         </div>
     </section>
-
+    <!--Terceira seção: contador-->
     <section class="bg-purple">
       <div class="container px-4 py-4 text-center">
         <div class="d-flex flex-column align-items-center">
@@ -156,6 +159,7 @@
         </div>
         <p class="pb-2 mt-5 display-6">ESTAMOS CONTANDO OS DIAS</p>
         <div class="d-flex justify-content-center mt-3">
+          <!--Contador-->
           <form class="d-flex mt-3">
             <div class="form-floating pe-4">
               <input type="text" class="form-control text-center bg-black size" id="dia" disabled>
@@ -180,6 +184,7 @@
         <div class="text-center mt-3" style="width: 400px;">
           <p class="h5 fw-light">Receba no seu e-mail as melhores ofertas! </p>
           <p class="h5 fw-light mt-3"> Encontre as promoções que cabem no seu bolso e comece a economizar!</p>
+          <!--Botão de voltar ao topo-->
           <div>
             <button type="button" id="subir" class="btn btn-outline-light mt-3" onclick="upToTop()">Estou
               dentro</button>
@@ -187,6 +192,7 @@
         </div>
       </div>
     </section>
+    <!--Rodapé-->
     <footer class="bg-black py-5">
       <div class="bg-black">
         Copyright © 2021 Todos os direitos reservados
