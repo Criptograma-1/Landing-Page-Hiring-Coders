@@ -6,7 +6,6 @@
     flex-direction: column!important;
   }
 }
-
 * {
   font-family: 'Roboto', sans-serif!important;
 }
@@ -61,6 +60,9 @@ section{
 }
 .fa-twitter{
   font-size: 1.5rem;
+}
+.modal-title{
+  color: #FF1493;
 }
 footer{
   height:100px; 
