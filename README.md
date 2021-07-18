@@ -14,7 +14,7 @@
  
 
 <h4 align="center"> 
-	🚧  Landing Page | Hiring Coders 🚀 Em curso  🚧
+	🚧  Landing Page | Hiring Coders 🚀 Concluido 🚧
 </h4>
 
 <img alt="GamePlay" title="#GamePlay" src="./readme-src/LandingPage.png"  />
