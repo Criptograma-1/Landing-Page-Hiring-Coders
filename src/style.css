@@ -5,6 +5,12 @@
   #new-flex{
     flex-direction: column!important;
   }
+  .new-flex{
+    flex-direction: column!important;
+    align-items: center;
+    padding-left: 15px;
+  }
+ 
 }
 * {
   font-family: 'Roboto', sans-serif!important;
@@ -15,6 +21,10 @@ body{
   color: #fff;
   background-attachment: scroll;
 }
+.input-size{
+  width: 90%;
+}
+
 .cover{
   display: table;
   width: 100%;
