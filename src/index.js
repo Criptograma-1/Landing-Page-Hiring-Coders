@@ -1,4 +1,3 @@
-
 function addItem() {
   //Pegando o valor do campo email
   let email = document.getElementById("email").value;
@@ -54,9 +53,16 @@ setInterval(function () {
 }, 1000);
 
 
-function upToTop() {
-  //Sobe para a o topo da tela
-  window.scrollTo(0, 0);
+function upTo() {
+  let el = document.getElementById("email");
+  // Pagando as coordenadas do elemento
+  let elCoordenadas = el.getBoundingClientRect();
+  let x = parseInt(elCoordenadas.x);
+  let y = parseInt(elCoordenadas.y);
+  y = y*(-1)-1100;
+  //Sobe para a posição do elemento
+  window.scrollTo(x, y);
+  console.log(x, y)
 }
 
 $('#myModal').on('shown.bs.modal', function () {
