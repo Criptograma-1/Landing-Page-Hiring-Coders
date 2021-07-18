@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="Landing Page Hiring Coders" title="#Landing-Page-Hiring-Coders" src=""/>
+    Landing Page Hiring Coders
 </h1>
 
 
@@ -26,25 +26,27 @@ Black Friday landing page desenvolvida para o desafio #1: Ecommerce - Como coloc
 
 
 Projeto desenvolvido durante o treinamento [**Hiring Coders #2**](https://www.hiringcoders.com.br/) oferecida pela [VTEX](https://vtex.com/br-pt/) em parceria com a [Gama Academy](https://www.gama.academy/).
-O NLW é uma experiência online com muito conteúdo prático, desafios e hacks onde o conteúdo fica disponível durante uma semana.
+O Hiring Coders é um programa de capacitação gratuito e sem pré-requisitos, feito para todos que querem uma carreira à prova do futuro.
 
 
-## ⚙️ Entregaveis
+## ⚙️ Funcionalidades
 
-- [x] Landing page de promoções, estilo black friday
+- [x] Landing page de promoções
+- [x] Estilo black friday
 - [x] Template do site oficial
-- [x] Landing page responsiva
-- [x] Cadastre seu e-mail para receber promoções 
+- [x] Template responsivo
+- [x] Cadastro de e-mail para receber promoções 
 - [x] Dados no localstorage
 - [ ] Hospedado no Netlify
 
 
 ## 🛠 Tecnologias
 
-As seguintes ferramentas foram usadas na construção do projeto:
+As seguintes ferramentas/linguagens foram usadas na construção do projeto:
 
 - HTML
 - Javascript
+- CSS
 - Bootstrap
 
 ## 🦸 Autora
