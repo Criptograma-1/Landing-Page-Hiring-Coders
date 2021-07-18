@@ -1,7 +1,7 @@
 function addItem() {
 
   // Pegando o valor do campo email
-  var email = document.getElementById("email").value;
+  let email = document.getElementById("email").value;
 
   // Criando uma string com o objeto a ser adicionado no localstorage
   const dataObj = JSON.stringify({ email });
@@ -22,13 +22,12 @@ function addItem() {
     );
   }
 }
-var target_date = new Date("august 1, 2021").getTime();
-var dias, horas, minutos, segundos;
-//var regressiva = document.getElementById("regressiva");
+let target_date = new Date("august 1, 2021").getTime();
+let dias, horas, minutos, segundos;
 
 setInterval(function () {
-  var current_date = new Date().getTime();
-  var segundos_f = (target_date - current_date) / 1000;
+  let current_date = new Date().getTime();
+  let segundos_f = (target_date - current_date) / 1000;
   
   dias = parseInt(segundos_f / 86400);
   segundos_f = segundos_f % 86400;
