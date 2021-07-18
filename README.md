@@ -14,7 +14,7 @@
  
 
 <h4 align="center"> 
-	🚧  Landing Page | Hiring Coders 🚀 Em curso  🚧
+	🚧  Landing Page | Hiring Coders 🚀 Concluido 🚧
 </h4>
 
 <img alt="GamePlay" title="#GamePlay" src="./readme-src/LandingPage.png"  />
@@ -28,16 +28,23 @@ Black Friday landing page desenvolvida para o desafio #1: Ecommerce - Como coloc
 Projeto desenvolvido durante o treinamento [**Hiring Coders #2**](https://www.hiringcoders.com.br/) oferecida pela [VTEX](https://vtex.com/br-pt/) em parceria com a [Gama Academy](https://www.gama.academy/).
 O Hiring Coders é um programa de capacitação gratuito e sem pré-requisitos, feito para todos que querem uma carreira à prova do futuro.
 
+### [Teste o site](https://hiringcoders-landingpage.netlify.app/)
+
 
 ## ⚙️ Funcionalidades
 
 - [x] Landing page de promoções
-- [x] Estilo black friday
-- [x] Template do site oficial
+- [x] Tema Black Friday
 - [x] Template responsivo
-- [x] Cadastro de e-mail para receber promoções 
+- [x] Menu interativo
+- [x] Cadastro de e-mail para receber promoções
+- [x] Contagem regressiva para o dia da Black Friday 
+- [x] Botão "Cadastrar" armazena os dados
+- [x] Botão "Saiba mais" abre um modal
+- [x] Botão "Estou dentro" volta para a seção de cadastro
+- [x] Modal com cadastro de e-mail e link para as redes sociais
 - [x] Dados no localstorage
-- [ ] Hospedado no Netlify
+- [x] Hospedagem no Netlify
 
 
 ## 🛠 Tecnologias
