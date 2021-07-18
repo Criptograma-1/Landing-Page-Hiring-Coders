@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
-
 @media (max-width: 768px){
   #new-flex{
     flex-direction: column!important;
@@ -10,7 +9,6 @@
     align-items: center;
     padding-left: 15px;
   }
- 
 }
 * {
   font-family: 'Roboto', sans-serif!important;
@@ -21,10 +19,20 @@ body{
   color: #fff;
   background-attachment: scroll;
 }
+footer{
+  height:100px; 
+  bottom: -100; 
+  text-align: center;
+}
+section{
+  width: 100%;
+  background-image: url('./img/enfeite.png');
+  background-size: cover;
+  background-attachment: fixed;
+}
 .input-size{
   width: 90%;
 }
-
 .cover{
   display: table;
   width: 100%;
@@ -38,12 +46,6 @@ body{
 .description{
   text-align: end;
   margin-right: 70px;
-}
-section{
-  width: 100%;
-  background-image: url('./img/enfeite.png');
-  background-size: cover;
-  background-attachment: fixed;
 }
 .bg-black{
   background-color: #000!important;
@@ -74,11 +76,6 @@ section{
 }
 .modal-title{
   color: #FF1493;
-}
-footer{
-  height:100px; 
-  bottom: -100; 
-  text-align: center;
 }
 
 
