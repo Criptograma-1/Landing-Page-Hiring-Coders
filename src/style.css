@@ -9,18 +9,21 @@
 * {
   font-family: 'Roboto', sans-serif!important;
 }
-
 body{
+  width: 100%;
+  background-color: #0f1418;
+  color: #fff;
+  background-attachment: scroll;
+}
+.cover{
   display: table;
   width: 100%;
+  background-color: #000;
   height: auto;
-  background-color: #0f1418;
   background-image: url('./img/background.png');
   background-position: 30% 45%;
   background-repeat: no-repeat;
   background-size: cover;
-  color: #fff;
-  background-attachment: scroll;
 }
 .description{
   text-align: end;
@@ -35,8 +38,7 @@ section{
 .bg-black{
   background-color: #000!important;
   color: #fff!important;
-  width: 102%;
-  margin-left: -11px;
+  width: 100%;
 }
 .bg-black-d{
   background: rgba(0, 0, 0, 0.73);
@@ -51,8 +53,7 @@ section{
 .bg-purple{
   background-color: #1c0840;
   color: #fff!important;
-  width: 102%;
-  margin-left: -11px;
+  width: 100%;
 }
 footer{
   height:100px; 
