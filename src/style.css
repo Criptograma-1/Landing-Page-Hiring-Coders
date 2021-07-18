@@ -1,0 +1,30 @@
+@media (max-width: 768px){
+  #new-flex{
+    flex-direction: column!important;
+  }
+}
+
+body{
+  display: table;
+  width: 100%;
+  height: auto;
+  background-color: #0f1418;
+  background-image: url('./img/background.png');
+  background-position: 30% 45%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  background-attachment: scroll;
+}
+.description{
+  text-align: end;
+  margin-right: 70px;
+}
+section {
+  width: 100%;
+  background-image: url('./img/enfeite.png');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+
