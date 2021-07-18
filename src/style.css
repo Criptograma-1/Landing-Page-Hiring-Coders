@@ -55,6 +55,12 @@ section{
   color: #fff!important;
   width: 100%;
 }
+.fa-facebook-square{
+  font-size: 1.5rem;
+}
+.fa-twitter{
+  font-size: 1.5rem;
+}
 footer{
   height:100px; 
   bottom: -100; 

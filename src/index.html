@@ -10,6 +10,9 @@
   <link rel="stylesheet" href="style.css">
   <script type="text/javascript" src="index.js"></script>
 
+  <script defer src="../node_modules/@fortawesome/fontawesome-free/js/brands.js"></script>
+  <script defer src="../node_modules/@fortawesome/fontawesome-free/js/fontawesome.js"></script>
+
   <title>Black Friday | Landing Page</title>
 </head>
 
@@ -96,9 +99,53 @@
           </div>
         </div>
         <div class="d-flex justify-content-center pb-5">
-          <button type="button" class="btn btn-outline-light">Saiba mais</button>
+          <!--Botão ativador do modal-->
+          <button type="button" class="btn btn-outline-light" data-toggle="modal" data-target="#myModal">
+            Saiba mais
+          </button>
         </div>
-      </div>
+        <!-- Modal -->
+        <div class="modal fade bg-black-d" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-body">
+              <div class="modal-content bg-black">
+                <div class="modal-header">
+                  <button type="button" class="btn btn-outline-light" data-dismiss="modal" aria-label="Close"><span
+                      aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body text-center">
+                  <h3 class="modal-title" id="myModalLabel">ASSINE</h3>
+                  <h5 class="fw-light">para receber as notícias mais quentes</h5>
+                  <br>
+                  <ul class="list-inline">
+                    <li class="list-inline-item">Siga-nos</li>
+                    <li class="list-inline-item">
+                      <a href="#" class="link-light"><i class="fab fa-facebook-square"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                      <a href="#" class="link-light"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li class="list-inline-item">ou</li>
+                  </ul>
+                  <p class="fw-light mt-4">
+                    Cadastre-se para ser o primeiro a saber tudo sobre as ofertas e
+                    promoções mais recentes.
+                  </p>
+                  <form>
+                    <div class="mb-3">
+                      <input type="email" class="form-control fw-light" placeholder="Digite seu melhor e-mail"
+                        id="modal-email">
+                    </div>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-outline-light" onclick="addItem()">Cadastrar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
     </section>
 
     <section class="bg-purple">

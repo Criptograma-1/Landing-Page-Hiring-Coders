@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/Criptograma-1/Landing-Page-Hiring-Coders/issues"
   },
-  "homepage": "https://github.com/Criptograma-1/Landing-Page-Hiring-Coders#readme"
+  "homepage": "https://github.com/Criptograma-1/Landing-Page-Hiring-Coders#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3"
+  }
 }

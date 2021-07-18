@@ -1,6 +1,11 @@
 function addItem() {
   //Pegando o valor do campo email
   let email = document.getElementById("email").value;
+  //verifica se o campo email está vazio
+  if(email === ""){
+    //caso email esteja vazio pega os dados do modal
+    email = document.getElementById("modal-email").value;
+  }
   //Criando uma string com o objeto a ser adicionado no localstorage
   const dataObj = JSON.stringify({ email });
   //Testando se é o primeiro item a ser adicionado.
@@ -52,3 +57,7 @@ function upToTop() {
   //Sobe para a o topo da tela
   window.scrollTo(0, 0);
 }
+
+$('#myModal').on('shown.bs.modal', function () {
+  $('#myInput').focus()
+})
