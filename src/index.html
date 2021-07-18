@@ -18,8 +18,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark">
       <a class="navbar-brand" href="#">
-        <img src="./img/logo.png" width="200"
-          class="d-inline-block align-text-top">
+        <img src="./img/logo.png" width="200" class="d-inline-block align-text-top">
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,28 +48,105 @@
           <img class="img-fluid" src="./img/black.png">
           <div class="me-4">
             <p class="text-end">
-              Cadastre seu e-mail abaixo e fique por dentro de todas as nossas
-              ofertas imperdíveis.
+              Prepare seu dinheiro, cartões de crédito e humor!
+              <br>
+              Fique ligado nas promoções incríveis e economize até 70% com a promoção insana da Black Friday.
             </p>
 
             <div class="input-group">
               <input type="email" class="form-control" placeholder="Digite seu melhor e-mail" id="email">
-              <button class="btn btn-outline-light" type="button" id="button-addon2" onclick="addItem()">Cadastrar</button>
+              <button class="btn btn-outline-light" type="button" id="button-addon2"
+                onclick="addItem()">Cadastrar</button>
             </div>
           </div>
         </div>
       </div>
     </section>
+    <section class="bg-black">
+      <div class="bg-black-d">
+        <div class="container px-4 py-4" id="featured-3">
+          <h2 class="pb-2 border-bottom">CONTEÚDOS SOB MEDIDA PRA VOCÊ</h2>
+          <div class="row g-4 pt-5 row-cols-1 row-cols-md-3 text-center">
+            <div class="feature col">
+              <div class="feature-icon">
+                <img class="img-fluid" src="./img/roupa1.png">
+              </div>
+              <h2>SÓ AS MELHORES</h2>
+              <p>As pesças mais pedidas da temporada para garantir estilo e leveza na sua produção.</p>
+            </div>
+            <div class="feature col">
+              <div class="feature-icon">
+                <img class="img-fluid" src="./img/roupa2.png">
+              </div>
+              <h2>MAIS VOCÊ</h2>
+              <p>Encontre roupas que representam seu estilo e garanta um look com a sua cara.</p>
+            </div>
+            <div class="feature col">
+              <div class="feature-icon">
+                <img class="img-fluid" src="./img/roupa3.png">
+              </div>
+              <h2>ESPECIAL DENIN</h2>
+              <p>O tecido mais amado do mundo não podia faltar, nas mais diversas peças e cortes.</p>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center pb-5">
+          <button type="button" class="btn btn-outline-light">Saiba mais</button>
+        </div>
+      </div>
+    </section>
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-      crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"></script>
+    <section class="bg-purple">
+      <div class="container px-4 py-4 text-center">
+        <div class="d-flex flex-column align-items-center">
+          <img class="img-fluid" src="./img/black2.png" style="width: 20%;">
+        </div>
+        <h4 class="pb-2 mt-5">ESTAMOS CONTANDO OS DIAS</h4>
+        <div class="d-flex justify-content-center">
+          <form class="form-floating ms-4 size">
+            <input type="text" class="form-control text-center bg-black" id="dia" disabled>
+            <label for="dia">Dia</label>
+          </form>
+          <form class="form-floating size">
+            <input type="text" class="form-control text-center bg-black" id="hora" disabled>
+            <label for="dia">Hora</label>
+          </form>
+          <form class="form-floating size">
+            <input type="text" class="form-control text-center bg-black" id="minuto" disabled>
+            <label for="dia">Minuto</label>
+          </form>
+          <form class="form-floating size">
+            <input type="text" class="form-control text-center bg-black" id="segundo" disabled>
+            <label for="dia">Segundo</label>
+          </form>
+        </div>
+      </div>
+      <div class="d-flex flex-column align-items-center pb-5">
+        <div class="text-center" style="width: 400px;">
+          <p>Prepare seu dinheiro, cartões de crédito e humor!</p>
+          <p> Fique ligado nas promoções incríveis e economize até 70% com a promoção insana da Black Friday.</p>
+          <div>
+            <button type="button" id="subir" class="btn btn-outline-light mt-5" onclick="subir()">Estou dentro</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="bg-black py-5">
+      <div class="bg-black">
+        Copyright © 2021 Todos os direitos reservados
+      </div>
+    </footer>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>

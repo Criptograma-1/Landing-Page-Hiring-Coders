@@ -20,11 +20,38 @@ body{
   text-align: end;
   margin-right: 70px;
 }
-section {
+section{
   width: 100%;
   background-image: url('./img/enfeite.png');
   background-size: cover;
   background-attachment: fixed;
+}
+.bg-black{
+  background-color: #000!important;
+  color: #fff!important;
+  width: 102%;
+  margin-left: -11px;
+}
+.bg-black-d{
+  background: rgba(0, 0, 0, 0.73);
+}
+.card{
+  background-color: transparent!important;
+}
+.size{
+    width: 100px;
+    text-align: center;
+}
+.bg-purple{
+  background-color: #1c0840;
+  color: #fff!important;
+  width: 102%;
+  margin-left: -11px;
+}
+footer{
+  height:100px; 
+  bottom: -100; 
+  text-align: center;
 }
 
 
