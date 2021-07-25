@@ -17,7 +17,7 @@
 	🚧  Landing Page | Hiring Coders 🚀 Concluido 🚧
 </h4>
 
-<img alt="GamePlay" title="#GamePlay" src="./readme-src/LandingPage.png"  />
+<img alt="LandingPagey" title="#LandingPage" src="./readme-src/LandingPage.png"  />
 
 
 ## 💻 Sobre o projeto
